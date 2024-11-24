@@ -1,0 +1,55 @@
+{
+  "1": {
+    "maintitle": {
+      "title": "Types de Logiciels",
+      "1": {
+        "title": "Logiciel Système",
+        "ph": "Gère et contrôle le matériel informatique, permettant aux autres logiciels de fonctionner. ",
+        "btn1": {
+          "name": "Systèmes d'exploitation",
+          "url": "https://fr.wikipedia.org/wiki/Syst%C3%A8me_d%27exploitation"
+        },
+        "btn2": {
+          "name": "Pilotes périphériques",
+          "url": "https://fr.wikipedia.org/wiki/Pilote_informatique"
+        },
+        "btn3": {
+          "name": "Logiciels de gestion",
+          "url": "https://fr.wikipedia.org/wiki/Cat%C3%A9gorie:Logiciel_de_gestion"
+        }
+      },
+      "2": {
+        "title": "Logiciel Applicatif",
+        "ph": "Conçu pour des tâches spécifiques, tels que:",
+        "btn1": {
+          "name": "Navigateurs Web",
+          "url": "https://fr.wikipedia.org/wiki/Navigateur_web"
+        },
+        "btn2": {
+          "name": "Traitements de texte",
+          "url": "https://fr.wikipedia.org/wiki/Traitement_de_texte"
+        },
+        "btn3": {
+          "name": "Applications mobiles",
+          "url": "https://fr.wikipedia.org/wiki/Application_mobile"
+        }
+      },
+      "3": {
+        "title": "Logiciel de Développement",
+        "ph": "Utilisé par les développeurs pour coder, tester et déployer des logiciels",
+        "btn1": {
+          "name": "Environnements de développement intégrés",
+          "url": "https://fr.wikipedia.org/wiki/Environnement_de_d%C3%A9veloppement"
+        },
+        "btn2": {
+          "name": "Compilateurs",
+          "url": "https://fr.wikipedia.org/wiki/Compilateur"
+        },
+        "btn3": {
+          "name": "Éditeurs de code",
+          "url": "https://en.wikipedia.org/wiki/Comparison_of_text_editors"
+        }
+      }
+    }
+  }
+}
