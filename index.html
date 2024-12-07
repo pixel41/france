@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Le Monde des Logiciels - Guide Complet</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap');
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background-color: #f4f7f6;
+            line-height: 1.6;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .card-hover {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="text-gray-800">
+    <header class="gradient-bg text-white py-16 text-center">
+        <div class="container mx-auto px-4">
+            <h1 class="text-4xl md:text-5xl font-bold mb-4">Le Monde des Logiciels</h1>
+            <p class="text-xl max-w-2xl mx-auto">Exploration approfondie de l'univers numérique qui transforme notre société</p>
+        </div>
+    </header>
+
+    <main class="container mx-auto px-4 py-12 space-y-12">
+        <section class="grid md:grid-cols-2 gap-8">
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <h2 class="text-2xl font-semibold text-purple-700 mb-4">🖥️ Types de Logiciels</h2>
+                <div class="space-y-4">
+                    <div class="bg-purple-50 p-4 rounded-md">
+                        <h3 class="font-bold text-lg mb-2">Logiciels Système</h3>
+                        <p>Gèrent les ressources matérielles et logicielles de l'ordinateur</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Systèmes d'exploitation (Windows, macOS, Linux)</li>
+                            <li>Pilotes de périphériques</li>
+                            <li>Utilitaires système</li>
+                        </ul>
+                    </div>
+                    <div class="bg-purple-50 p-4 rounded-md">
+                        <h3 class="font-bold text-lg mb-2">Logiciels d'Application</h3>
+                        <p>Conçus pour répondre à des besoins spécifiques des utilisateurs</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Traitement de texte</li>
+                            <li>Tableurs</li>
+                            <li>Logiciels de design</li>
+                            <li>Jeux vidéo</li>
+                        </ul>
+                    </div>
+                    <div class="bg-purple-50 p-4 rounded-md">
+                        <h3 class="font-bold text-lg mb-2">Logiciels de Programmation</h3>
+                        <p>Outils pour développer et créer des logiciels</p>
+                        <ul class="list-disc list-inside text-sm pl-4">
+                            <li>Environnements de développement (IDE)</li>
+                            <li>Compilateurs</li>
+                            <li>Débogueurs</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-lg p-6 card-hover">
+                <h2 class="text-2xl font-semibold text-blue-700 mb-4">🚀 Histoire des Logiciels</h2>
+                <div class="space-y-4">
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold">Premiers Ordinateurs (1940-1950)</h3>
+                        <p>Programmation manuelle avec des cartes perforées et des commutateurs</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold">Révolution des Logiciels (1960-1970)</h3>
+                        <p>Développement des premiers systèmes d'exploitation et langages de programmation</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold">Ère Personnelle (1980-1990)</h3>
+                        <p>Émergence des ordinateurs personnels et des logiciels grand public</p>
+                    </div>
+                    <div class="border-l-4 border-blue-500 pl-4">
+                        <h3 class="font-bold">Internet et Cloud (2000-Aujourd'hui)</h3>
+                        <p>Développement des applications web et des services cloud</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-6 text-indigo-800">Processus de Développement Logiciel</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">📋</div>
+                    <h3 class="font-semibold text-xl mb-2">Analyse des Besoins</h3>
+                    <p>Définition précise des exigences et objectifs du projet</p>
+                </div>
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">🖌️</div>
+                    <h3 class="font-semibold text-xl mb-2">Conception</h3>
+                    <p>Création de l'architecture et du design du logiciel</p>
+                </div>
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">💻</div>
+                    <h3 class="font-semibold text-xl mb-2">Développement</h3>
+                    <p>Écriture du code et implémentation des fonctionnalités</p>
+                </div>
+            </div>
+            <div class="grid md:grid-cols-3 gap-6 mt-6">
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">🔍</div>
+                    <h3 class="font-semibold text-xl mb-2">Tests</h3>
+                    <p>Vérification de la qualité et détection des bugs</p>
+                </div>
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">🚀</div>
+                    <h3 class="font-semibold text-xl mb-2">Déploiement</h3>
+                    <p>Mise en production et mise à disposition des utilisateurs</p>
+                </div>
+                <div class="text-center card-hover p-4 bg-gray-50 rounded-lg">
+                    <div class="text-5xl mb-4">🔧</div>
+                    <h3 class="font-semibold text-xl mb-2">Maintenance</h3>
+                    <p>Mises à jour continues et support technique</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-6 text-indigo-800">Impacts des Logiciels sur la Société</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="text-center">
+                    <div class="text-5xl mb-4">💼</div>
+                    <h3 class="font-semibold text-xl mb-2">Transformation Professionnelle</h3>
+                    <p>Automatisation et optimisation des processus professionnels</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl mb-4">🌐</div>
+                    <h3 class="font-semibold text-xl mb-2">Connectivité Globale</h3>
+                    <p>Communication instantanée à l'échelle mondiale</p>
+                </div>
+                <div class="text-center">
+                    <div class="text-5xl mb-4">🎓</div>
+                    <h3 class="font-semibold text-xl mb-2">Éducation et Apprentissage</h3>
+                    <p>Nouveaux moyens d'apprentissage et de partage des connaissances</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white rounded-lg shadow-lg p-8">
+            <h2 class="text-3xl font-bold text-center mb-6 text-indigo-800">Défis et Perspectives d'Avenir</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="font-bold text-xl mb-4">🛡️ Cybersécurité</h3>
+                    <p>Protection croissante contre les menaces numériques</p>
+                    <ul class="list-disc list-inside text-sm pl-4 mt-2">
+                        <li>Chiffrement avancé</li>
+                        <li>Intelligence artificielle de sécurité</li>
+                        <li>Authentification multi-facteurs</li>
+                    </ul>
+                </div>
+                <div class="bg-gray-50 p-6 rounded-lg">
+                    <h3 class="font-bold text-xl mb-4">🤖 Intelligence Artificielle</h3>
+                    <p>Intégration profonde de l'IA dans les logiciels</p>
+                    <ul class="list-disc list-inside text-sm pl-4 mt-2">
+                        <li>Apprentissage automatique</li>
+                        <li>Systèmes autonomes</li>
+                        <li>Personnalisation avancée</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="gradient-bg text-white py-8 text-center">
+        <p>© 2024 Le Monde des Logiciels - Tous droits réservés</p>
+        <p class="text-sm mt-2">Dernière mise à jour : Décembre 2024</p>
+        <div class="mt-4 space-x-4">
+            <a  class="text-white hover:text-gray-200">Boudouani mohamed </a>
+            <a  class="text-white hover:text-gray-200">Ammouchas lina anfel </a>
+            <a  class="text-white hover:text-gray-200">Khatiri sami</a>
+        </div>
+    </footer>
+</body>
+</html>
